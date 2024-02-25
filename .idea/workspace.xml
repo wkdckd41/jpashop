@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4ab32ec-19d9-4c28-a43f-a73aa13ea69b" name="Changes" comment="JPA 실전예제1&#10;- 요구사항 분석과 기본 매핑">
-      <change afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/Team.java" afterDir="false" />
+    <list default="true" id="c4ab32ec-19d9-4c28-a43f-a73aa13ea69b" name="Changes" comment="JPA 실전예제2&#10;- 연관관계 매핑 시작">
+      <change afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/Delivery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/DeliveryStatus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/JpaMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jpabook/jpashop/domain/Team.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -100,6 +104,8 @@
       <workItem from="1708442471349" duration="3174000" />
       <workItem from="1708447897992" duration="2448000" />
       <workItem from="1708463618865" duration="3700000" />
+      <workItem from="1708838275992" duration="1506000" />
+      <workItem from="1708844578090" duration="722000" />
     </task>
     <task id="LOCAL-00001" summary="JPA 실전예제1&#10;- 요구사항 분석과 기본 매핑">
       <option name="closed" value="true" />
@@ -125,7 +131,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708525563241</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="JPA 실전예제2&#10;- 연관관계 매핑 시작">
+      <option name="closed" value="true" />
+      <created>1708839725290</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708839725290</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,7 +170,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="JPA 실전예제1&#10;- 요구사항 분석과 기본 매핑" />
-    <option name="LAST_COMMIT_MESSAGE" value="JPA 실전예제1&#10;- 요구사항 분석과 기본 매핑" />
+    <MESSAGE value="JPA 실전예제2&#10;- 연관관계 매핑 시작" />
+    <option name="LAST_COMMIT_MESSAGE" value="JPA 실전예제2&#10;- 연관관계 매핑 시작" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
