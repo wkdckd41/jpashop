@@ -1,6 +1,9 @@
 package jpabook.jpashop;
 
+import jpabook.jpashop.domain.Member;
 import jpabook.jpashop.domain.Order;
+import jpabook.jpashop.domain.OrderItem;
+import jpabook.jpashop.domain.Team;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
@@ -17,9 +20,13 @@ public class JpaMain {
         tx.begin();
 
         try {
+            Order order = new Order();
+            order.setMember(new Member());
 
-            Order order= em.find(Order.class, 1L); // 1L은 Long 타입이다.
-            Long memberId = order.getMemberId();// 1L은 Long 타입이다.
+            OrderItem orderItem = new OrderItem();
+            orderItem.setOrder(order);
+
+            em.persist(order);
 
             tx.commit();
         } catch (Exception e) {
